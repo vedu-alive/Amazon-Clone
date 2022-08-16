@@ -1,0 +1,51 @@
+.cartCheckout{
+    background-color: #ffffff;
+}
+
+.cartCheckout h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: rgb(234, 237, 237);
+    border-bottom: 1px solid lightgray;
+}
+
+.cartCheckout_section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.cartCheckout_address {
+   /* padding-left: 40px; */
+   flex: 0.8;
+}
+
+.cartCheckout_title {
+    flex: 0.2;
+}
+
+.cartCheckout_items, .cartCheckout_payment {
+    flex: 0.8;
+}
+
+.cartCheckout_payment form{
+    max-width: 400px;
+}
+
+.cartCheckout_payment h3{
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.cartCheckout_payment form div button{
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
